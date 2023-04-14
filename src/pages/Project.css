@@ -1,0 +1,93 @@
+/* #projects {
+   display: flex;
+  justify-content: center; 
+   margin-left: 7.5%; 
+  display: flex;
+    justify-content: space-around; 
+   margin-top: 120px;
+    margin-bottom: 120px; 
+   border-top: 1px solid white;
+    border-top-left-radius: 20px 20px; 
+}
+.allProjects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#secondProject {
+  display: flex;
+  justify-content: center;
+}
+#thirdProject {
+  display: flex;
+  justify-content: center;
+}
+#fourthProject {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  border: 1px solid #201c2b;
+  width: 33%;
+  opacity: 0.8;
+
+  background-color: #faf9f6;
+  width: 30%;
+  height: 80%;
+  text-align: left;
+  padding: 1rem;
+  margin: 2rem;
+ 
+  color: black;
+}
+.card p {
+  font-size: 1rem;
+}
+
+.card img {
+  object-fit: contain;
+}
+.card h4 {
+  text-align: center;
+}
+.cardButton {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+.cardButton button {
+  background-color: black;
+  height: 2rem;
+  border-radius: 10px;
+  border-color: black;
+  display: flex;
+  align-self: center;
+}
+.cardButton a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-self: center;
+}
+@media (max-width: 1000px) {
+  .allProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 70vw;
+    height: 100%;
+  }
+  .card p {
+    font-size: 0.8rem;
+  }
+} */

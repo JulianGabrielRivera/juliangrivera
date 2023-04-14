@@ -1,0 +1,55 @@
+.whoamI {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 37px;
+}
+.whoamI p {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: 45vh;
+  width: 35%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: black;
+}
+.whoamI h2 {
+  width: 100%;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@media (max-width: 1000px) {
+  .whoamI p {
+    font-size: 0.8rem;
+  }
+  .whoamI {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .whoamI {
+    flex-direction: column;
+  }
+  .aboutI {
+    width: 100vw;
+    text-align: left;
+    margin-left: 20%;
+  }
+  .whoamI p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 675px) {
+  .whoamI p {
+    width: 70vw;
+  }
+}

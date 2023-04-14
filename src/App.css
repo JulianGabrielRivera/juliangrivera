@@ -1,0 +1,146 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 3.2vw;
+  background-color: #201c2b;
+  position: absolute;
+  z-index: 1000;
+  /* left: -20px; */
+}
+/* .myName{
+  
+} */
+.hamburgerMenu {
+  z-index: 1;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+.hamburgerItem {
+  border-radius: 10px;
+  width: 25px;
+  background-color: white;
+  height: 5px;
+  margin-top: 3px;
+}
+.hamburgerItemX {
+  background-color: white;
+  width: 30px;
+  height: 5px;
+  border-radius: 10px;
+
+  rotate: 45deg;
+  transform: translate(1.5px, 18.5px);
+  transition: ease-out 0.5s;
+}
+.hamburgerItemSecond {
+  border-radius: 10px;
+
+  background-color: white;
+  width: 30px;
+  height: 5px;
+
+  transform: scale(0.1);
+  transition: ease-out 0.5s;
+}
+.hamburgerItemXLast {
+  border-radius: 10px;
+
+  background-color: white;
+  width: 30px;
+  height: 5px;
+
+  rotate: 135deg;
+  transform: translate(15px, 2px);
+  transition: ease-out 0.5s;
+}
+
+@media screen and (max-width: 1600px) {
+  .sideBar {
+    height: 100vh;
+    width: 3vw;
+    background-color: #201c2b;
+    position: absolute;
+    z-index: 1000;
+    /* left: -20px; */
+  }
+}
+@media screen and (max-width: 600px) {
+  .dropDiv {
+    width: 37%;
+  }
+  .hamburgerItem {
+    border-radius: 10px;
+    width: 25px;
+    background-color: white;
+    height: 5px;
+    margin-top: 3px;
+    transition: ease-out 0.5s;
+  }
+  .dropDownButton {
+    background-color: #201c2b;
+    color: white;
+    border: 1px solid black;
+    /* width: 10%;
+    position: absolute;
+    z-index: 1;
+    top: 8px;
+    right: 0px; */
+
+    /* height: 10%; */
+  }
+  .dropdown-menu {
+    display: flex;
+    text-align: left;
+    /* so that when we do position absolute it doesnt resize container */
+    flex-direction: column;
+    /* to stop from resizing */
+    position: absolute;
+    right: 60px;
+    /* for click to work */
+    z-index: 1;
+    display: block;
+    z-index: 1;
+    width: 100px;
+    border-radius: 50px;
+    background: #091235;
+    /* height: 100vh;
+    width: 100vw;
+    right: 0; */
+  }
+  .dropdown-item {
+    background-color: #201c2b;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 5rem;
+    height: 5%;
+    z-index: 1;
+  }
+
+  .item {
+    text-decoration: none;
+    color: white;
+  }
+  a {
+    display: block;
+    z-index: 1;
+    width: 100px;
+    background: #091235;
+  }
+}
+@media screen and (min-width: 600px) {
+  .dropDownButton {
+    display: none;
+  }
+  .dropdown-item {
+    display: none;
+  }
+  .hamburgerMenu {
+    display: none;
+  }
+}
