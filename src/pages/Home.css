@@ -131,7 +131,7 @@ li {
   background-image: url("https://juliangrivera.netlify.app/images/aitest.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-size: 50% 100%;
+  background-size: 40% 100%;
 }
 .insidePictureHereFirst {
   display: flex;
@@ -288,6 +288,13 @@ main {
 .card img {
   object-fit: contain;
   margin: 0 auto;
+  width: 100%;
+}
+.cardAgain img {
+  width: 100%;
+}
+.cards img {
+  width: 100%;
 }
 .card h4 {
   text-align: center;

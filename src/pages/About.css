@@ -5,6 +5,7 @@
   height: 100vh;
   width: 100vw;
   margin-top: 37px;
+  margin-left: 40px;
 }
 .whoamI p {
   background-color: white;
@@ -27,7 +28,7 @@
   padding-right: 10%;
 }
 .aboutI {
-  width: 80vw;
+  /* width: 98vw; */
 }
 @media (max-width: 1000px) {
   .whoamI p {
@@ -41,10 +42,12 @@
 @media (max-width: 800px) {
   .whoamI {
     flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 0;
   }
   .aboutI {
     text-align: left;
-    margin-left: 20%;
+    width: 550px;
   }
   .whoamI p {
     width: 70%;
