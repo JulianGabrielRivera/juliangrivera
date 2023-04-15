@@ -26,6 +26,9 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+.aboutI {
+  width: 80vw;
+}
 @media (max-width: 1000px) {
   .whoamI p {
     font-size: 0.8rem;
@@ -40,7 +43,6 @@
     flex-direction: column;
   }
   .aboutI {
-    width: 100vw;
     text-align: left;
     margin-left: 20%;
   }

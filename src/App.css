@@ -71,7 +71,7 @@
 }
 @media screen and (max-width: 600px) {
   .dropDiv {
-    width: 37%;
+    width: 10%;
   }
   .hamburgerItem {
     border-radius: 10px;

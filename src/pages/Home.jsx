@@ -199,6 +199,19 @@ const Home = () => {
         }}
       >
         <section className="pictureHere" ref={refTwo}>
+          {/* <div
+            style={{
+              width: "100vw",
+              height: "100vh",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          > */}
+          {/* <div
+            // style={{ visibility: "hidden" }}
+            className={useMediaQuery && "myImage"}
+          ></div> */}
+          {/* </div> */}
           {/* <img src="../images/side.png" alt="" id="julian" /> */}
           {/* <div className="fullStack"> */}
           <div className="insidePictureHere">
@@ -554,6 +567,7 @@ const Home = () => {
       <div className="whoamI" ref={ref3}>
         <div className="aboutI">
           <Typewriter
+            style={{ width: "98vw" }}
             options={{
               strings: ["A little about myself"],
               autoStart: true,
