@@ -207,10 +207,10 @@ const Home = () => {
               justifyContent: "center",
             }}
           > */}
-          {/* <div
-            // style={{ visibility: "hidden" }}
-            className={useMediaQuery && "myImage"}
-          ></div> */}
+          <div
+          // style={{ visibility: "hidden" }}
+          // className={useMediaQuery && "myImage"}
+          ></div>
           {/* </div> */}
           {/* <img src="../images/side.png" alt="" id="julian" /> */}
           {/* <div className="fullStack"> */}
