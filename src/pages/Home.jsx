@@ -97,15 +97,15 @@ const Home = () => {
           transition={{ ease: "easeOut", duration: 2 }}
         >
           {/* <div className="navBar2"> */}
-          <Link to={"/"} className="navLi">
+          <button ref={refTwo} onClick={handleHomeClick} className="navLi">
             Home
-          </Link>
-          <Link to={"/about"} className="navLi">
+          </button>
+          <button ref={ref3} onClick={handleAboutClick} className="navLi">
             About
-          </Link>
-          <Link to={"/projects"} className="navLi">
+          </button>
+          <button ref={ref} onClick={handleProjectsClick} className="navLi">
             Projects
-          </Link>
+          </button>
           {/* </div> */}
         </motion.div>
         <div className="dropDiv">
