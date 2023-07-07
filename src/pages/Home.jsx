@@ -553,8 +553,9 @@ const Home = () => {
           />
           <p style={{ marginRight: "15%" }}>
             These are my deck of applications which were built using HTML, CSS,
-            Object Oriented Programming, Javascript, Handlebars, Bootstrap,
-            MongoDB, React, Express, and Node.
+            OOP, Javascript, Handlebars, Bootstrap, MongoDB, React, Express,
+            SQL, PostgreSQL, AWS, Redux, Tailwind, Material UI, Puppeteer,
+            Socket.io, Typescript, Docker and Kubernetes.
           </p>
         </div>
       </section>
@@ -581,9 +582,9 @@ const Home = () => {
         <p>
           Born in Puerto Rico, raised in Orlando Florida. My pastimes are going
           to the gym, coding, and sometimes gaming. I started my journey as a
-          Junior Developer on March 2022 and I currently work as a Web Developer
-          Teaching Assistant for Ironhack where I take part in building multiple
-          Full Stack applications.
+          Junior Developer on March 2022 and I currently work as a Software
+          Developer Instructor for Ironhack where I take part in building
+          multiple Full Stack applications.
         </p>
       </div>
       {/* </section> */}
